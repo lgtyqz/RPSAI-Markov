@@ -1,4 +1,5 @@
 "use strict";
+// trivial edit
 (function(){
     window.addEventListener("load", init);
 
