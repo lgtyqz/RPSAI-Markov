@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1>Rock Paper Scissors <span class="emphasis">AI</span></h1>
+        <h2>Try to beat the computer and find out insights into your own playstyle!</h2>
+        <div id="options">
+            <figure class="option" id="0">
+                <img src="images/rock.png">
+                <p>Rock</p>
+            </figure>
+            <figure class="option" id="1">
+                <img src="images/paper.jpg">
+                <p>Paper</p>
+            </figure>
+            <figure class="option" id="2">
+                <img src="images/scissors.jpg">
+                <p>Scissors</p>
+            </figure>
+        </div>
+        <div class="game-results">
+            <p id="results"></p>
+            <p id="insight"></p>
+        </div>
+        <div class="area">
+            <figure class="stat">
+                <h2 id="player-winrate">0%</h2>
+                <p>Your winrate</p>
+            </figure>
+            <figure class="stat">
+                <h2 id="ai-winrate">0%</h2>
+                <p>The AI's winrate</p>
+            </figure>
+            <figure class="stat">
+                <h2 id="total-games">0</h2>
+                <p>Games played</p>
+            </figure>
+        </div>
+    </body>
+</html>

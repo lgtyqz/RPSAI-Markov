@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #06AED5;
+    color: #FFFFFF;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 4px 4px rgba(0.5, 0.5, 0.5, 0.3);
+}
+
+h2, p {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+div#options, div.area {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+figure.option {
+    background-color: #06AED5;
+    box-shadow: 0px 4px 4px rgba(0.5, 0.5, 0.5, 0.3);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    transition: all ease 0.5s;
+}
+
+figure.option:hover {
+    background-color: #086788;
+    box-shadow: 0px 8px 10px rgba(0.5, 0.5, 0.5, 0.3);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    transition: all ease 0.5s;
+}
+
+figure.option p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.emphasis {
+    color: #FFFF22;
+}
+
+.white-emphasis {
+    color: #DD1C1A;
+}
